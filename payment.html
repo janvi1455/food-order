@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset=utf="8">
+<title>Payment form</title>
+<link rel="stylesheet" href="\D:\web dev\FOOD ORDERING\style.css">
+</head>
+<body>
+
+  <h3>Payment Method</h3>
+  <hr>
+    <h4>No refund</h4>
+    <p>card type
+      <select name="card_type" id="card_type">
+        <option value="">--select a card type</option>
+        <option value="Visa">Visa</option>
+          <option value="Paytm">Paytm</option>
+            <option value="Credit Card">Credit Card</option>
+              <option value="Master Card">Master Card</option>
+
+            </select>
+    </p>
+  <p>
+    Name on the Card:*<input type="text" name="Name" required >
+  <p>
+    Card Number <input type="number" name="card_number" id="card_number">
+  </p>
+  <p>
+    Expiration Date:<input type="Date" name="exp_date" id="exp_date">
+  </p>
+  <p>CVV <input type="password" name="cvv" id="cvv">
+  </p>
+  <input type="submit" value="Pay Now">
+  <p><input type="radio"name="t&c"id="t&c" required>I accept terms and conditions*</p>
+
+
+
+
+  </body>
+  </html>
